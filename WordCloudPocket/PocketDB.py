@@ -33,7 +33,7 @@ def gather_data(since=None):
     parameters['access_token'] = "187fbba6-4fce-6dcf-b1a6-e6bfdd"
     parameters['state'] = "all" 
     parameters['detailType'] = "simple"
-    parameters['count'] = 20 #you can delete this line if you want all your data at once (not just 20 items)
+    #parameters['count'] = 20 #you can delete this line if you want all your data at once (not just 20 items)
     parameters['sort'] = "oldest" 
     if since is None:
         pass
